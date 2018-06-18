@@ -19,24 +19,9 @@
   display: none;
 }
 
-/**
-this selects a div with an ID of Wall,
-then selects a div with a class of parent,
-then selects a div that is both the last-child and also the sibling of another div,
-then selects a div with an ID of tag-6
-**/
-
-div#wall div.parent div + div:last-child div#tag-6 {
+#wall .parent + :last-child #tag-6 {
   display: none;
 }
-
-/**
-this selects a div with an ID of wall,
-then selects a div with a class of parent,
-then selects a div which is the first child of the div above and this div is also the parent of another div with the ID of tag-7
-the element with the ID of tag-7 also has a class of .slick
-**/
-
 body div#wall div.parent div:first-child > #tag-7.slick {
   display: none;
 }
