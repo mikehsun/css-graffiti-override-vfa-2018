@@ -15,10 +15,4 @@
   display: none;
 }
 
-#wall .parent {
-  display: none;
-}
-
-#wall .parent > div #tag-6 {
-  display: none;
-}
+div
