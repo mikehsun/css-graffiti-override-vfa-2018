@@ -11,14 +11,6 @@
   display: none;
 }
 
-#wall .parent #tag-4 {
-  display: none;
-}
-
-#wall .parent:last-child #tag-6 {
-  display: none;
-}
-
-#wall .parent:first-child > #tag-7.slick {
+#wall .parent {
   display: none;
 }
