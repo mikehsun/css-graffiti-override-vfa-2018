@@ -22,18 +22,7 @@
 #wall .parent #tag-4 {
   display: none;
 }
-/* child combiner */
-/* selects the child div of .parent */
+
 #wall .parent > div {
   display: none;
 } 
-
-
-/* I needed to move around the links to the style sheet */
-#wall .parent > div #tag-6 {
-  display: none; 
-}
-
-#wall * { 
-  display: none;
-}
